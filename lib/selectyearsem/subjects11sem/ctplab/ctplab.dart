@@ -32,18 +32,18 @@ class ctplab extends StatelessWidget {
                 height: 0,
               ),
               Container(
-                height: 170,
+                height: 150,
                 width: double.infinity,
                 color: Colors.blue,
                 child: const Padding(
-                                padding: EdgeInsets.only(top:25,left: 30),
+                                padding: EdgeInsets.only(top:10,left: 20),
                                 child: Text(
                                   'Computational Thinking and Programming Lab',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 30,
                                     fontWeight: FontWeight.w900,
-                                    letterSpacing: 1.5,
+                                    letterSpacing: 1,
                                   ),
                                 ),
                               ),

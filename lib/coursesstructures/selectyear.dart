@@ -65,95 +65,109 @@ class selectyear extends StatelessWidget {
                         ),
                       ),
                       SizedBox(height: height * 0.03),
-                      SizedBox(
-                        width: width,
-                        height: height * 0.07,
-                        child: ElevatedButton(
-                          onPressed: () {
-                            final snackBar = SnackBar(
-                              content: Text('Need to be Updated!'),
-                            );
-                            ScaffoldMessenger.of(context)
-                                .showSnackBar(snackBar);
-                          },
-                          style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all(
-                                Colors.lightBlue.shade900),
-                            shape: MaterialStateProperty.all(
-                              RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(60),
+                      
+                      Builder(
+                        builder: (context) {
+                          return SizedBox(
+                            width: width,
+                            height: height * 0.07,
+                            child: ElevatedButton(
+                              onPressed: () {
+                                const snackBar = SnackBar(
+                                  content: Text('Need to be Updated!'),
+                                );
+                                ScaffoldMessenger.of(context)
+                                    .showSnackBar(snackBar);
+
+                              },
+                              style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all(
+                                    Colors.lightBlue.shade900),
+                                shape: MaterialStateProperty.all(
+                                  RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(60),
+                                  ),
+                                ),
+                              ),
+                              child: Text(
+                                "2ND YEAR",
+                                style: TextStyle(
+                                  fontSize: 26,
+                                  letterSpacing: 1.0,
+                                ),
                               ),
                             ),
-                          ),
-                          child: Text(
-                            "2ND YEAR",
-                            style: TextStyle(
-                              fontSize: 26,
-                              letterSpacing: 1.0,
-                            ),
-                          ),
-                        ),
+                          );
+                        }
                       ),
                       // Repeat the same pattern for 3RD and 4TH YEAR buttons...
                       SizedBox(height: height * 0.03),
-                      SizedBox(
-                        width: width,
-                        height: height * 0.07,
-                        child: ElevatedButton(
-                          onPressed: () {
-                            final snackBar = SnackBar(
-                              content: Text('Need to be Updated!'),
-                            );
-                            ScaffoldMessenger.of(context)
-                                .showSnackBar(snackBar);
-                          },
-                          style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all(
-                                Colors.lightBlue.shade900),
-                            shape: MaterialStateProperty.all(
-                              RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(60),
+                      Builder(
+                        builder: (context) {
+                          return SizedBox(
+                            width: width,
+                            height: height * 0.07,
+                            child: ElevatedButton(
+                              onPressed: () {
+                                const snackBar = SnackBar(
+                                  content: Text('Need to be Updated!'),
+                                );
+                                ScaffoldMessenger.of(context)
+                                    .showSnackBar(snackBar);
+                              },
+                              style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all(
+                                    Colors.lightBlue.shade900),
+                                shape: MaterialStateProperty.all(
+                                  RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(60),
+                                  ),
+                                ),
+                              ),
+                              child: Text(
+                                "3RD YEAR",
+                                style: TextStyle(
+                                  fontSize: 26,
+                                  letterSpacing: 1.0,
+                                ),
                               ),
                             ),
-                          ),
-                          child: Text(
-                            "3RD YEAR",
-                            style: TextStyle(
-                              fontSize: 26,
-                              letterSpacing: 1.0,
-                            ),
-                          ),
-                        ),
+                          );
+                        }
                       ),
                       SizedBox(height: height * 0.03),
-                      SizedBox(
-                        width: width,
-                        height: height * 0.07,
-                        child: ElevatedButton(
-                          onPressed: () {
-                            final snackBar = SnackBar(
-                              content: Text('Need to be Updated!'),
-                            );
-                            ScaffoldMessenger.of(context)
-                                .showSnackBar(snackBar);
-                          },
-                          style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all(
-                                Colors.lightBlue.shade900),
-                            shape: MaterialStateProperty.all(
-                              RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(60),
+                      Builder(
+                        builder: (context) {
+                          return SizedBox(
+                            width: width,
+                            height: height * 0.07,
+                            child: ElevatedButton(
+                              onPressed: () {
+                                const snackBar = SnackBar(
+                                  content: Text('Need to be Updated!'),
+                                );
+                                ScaffoldMessenger.of(context)
+                                    .showSnackBar(snackBar);
+                              },
+                              style: ButtonStyle(
+                                backgroundColor: MaterialStateProperty.all(
+                                    Colors.lightBlue.shade900),
+                                shape: MaterialStateProperty.all(
+                                  RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(60),
+                                  ),
+                                ),
+                              ),
+                              child: Text(
+                                "4TH YEAR",
+                                style: TextStyle(
+                                  fontSize: 26,
+                                  letterSpacing: 1.0,
+                                ),
                               ),
                             ),
-                          ),
-                          child: Text(
-                            "4TH YEAR",
-                            style: TextStyle(
-                              fontSize: 26,
-                              letterSpacing: 1.0,
-                            ),
-                          ),
-                        ),
+                          );
+                        }
                       ),
                     ],
                   )

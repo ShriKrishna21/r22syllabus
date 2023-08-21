@@ -34,11 +34,11 @@ class r22regular extends StatelessWidget {
                   builder: (context) {
                     return Column(children: <Widget>[
                       Container(
-                        height: height*0.2,
+                        height: height*0.18,
                         width: double.infinity,
                         color: Colors.blue,
                         child: const Padding(
-                                        padding: EdgeInsets.only(top:25,left: 30),
+                                        padding: EdgeInsets.only(top:15),
                                         child: Text(
                                           'ACADEMIC REGULATIONS R22 FOR BTECH(REGULAR)',
                                           style: TextStyle(

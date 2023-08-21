@@ -55,19 +55,27 @@ class _contactState extends State<contact> {
               child: ListTile(
                 title: Text(
                   cardItems[position]['title'] ?? '',
-                  style: TextStyle(fontSize: 20), // Increase text size
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.w900,
+                    ), // Increase text size
                 ),
                 subtitle: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       cardItems[position]['subtitle'] ?? '',
-                      style: TextStyle(fontSize: 18), // Increase text size
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w500,
+                        ), // Increase text size
                     ),
                     SizedBox(height: 8), // Add spacing
                     Text(
                       cardItems[position]['extraInfo'] ?? '',
-                      style: TextStyle(fontSize: 16), // Increase text size
+                      style: TextStyle(fontSize: 18,
+                      fontWeight: FontWeight.w400,
+                      ), // Increase text size
                     ),
                   ],
                 ),

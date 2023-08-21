@@ -31,7 +31,7 @@ class regulations extends StatelessWidget {
             height: double.infinity,
             child: Column(children: <Widget>[
               Container(
-                height: height*0.15,
+                height: height*0.1,
                 width: double.infinity,
                 color: Colors.blue,
                 child: const Padding(
@@ -42,7 +42,7 @@ class regulations extends StatelessWidget {
                                     color: Colors.white,
                                     fontSize: 30,
                                     fontWeight: FontWeight.w900,
-                                    letterSpacing: 1.5,
+                                    letterSpacing: 1,
                                   ),
                                 ),
                               ),
@@ -50,7 +50,7 @@ class regulations extends StatelessWidget {
               SizedBox(height: height*0.05),
               SizedBox(
                 width: double.infinity,
-                height: height*0.15,
+                height: height*0.12,
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(
@@ -63,16 +63,14 @@ class regulations extends StatelessWidget {
                   style: ButtonStyle(
                     backgroundColor:
                         MaterialStateProperty.all(Colors.lightBlue.shade900),
-                    shape: MaterialStateProperty.all(
-                      RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(60)),
-                    ),
+                    shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(60))),
                   ),
                   child: Text(
                     "ACADEMIC REGULATIONS R22 FOR BTECH(REGULAR)",
                     style: TextStyle(
                       fontSize: 26,
-                      letterSpacing: 1.0,
+                      letterSpacing: 0.5,
                     ),
                   ),
                 ),
@@ -80,7 +78,7 @@ class regulations extends StatelessWidget {
               SizedBox(height: height*0.03),
               SizedBox(
                 width: double.infinity,
-                height: height*0.15,
+                height: height*0.1,
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(
@@ -100,7 +98,7 @@ class regulations extends StatelessWidget {
                     "ACADEMIC REGULATIONS R22 FOR BTECH(LATERAL)",
                     style: TextStyle(
                       fontSize: 26,
-                      letterSpacing: 1.0,
+                      letterSpacing: 0.5,
                     ),
                   ),
                 ),
@@ -108,7 +106,7 @@ class regulations extends StatelessWidget {
               SizedBox(height: height*0.03),
               SizedBox(
                 width: double.infinity,
-                height: height*0.08,
+                height: height*0.1,
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(

@@ -40,9 +40,9 @@ class coursestructure extends StatelessWidget {
                                   'IT DEPARTMENT',
                                   style: TextStyle(
                                     color: Colors.black,
-                                    fontSize: 28,
+                                    fontSize: 30,
                                     fontWeight: FontWeight.w900,
-                                    letterSpacing: 1.5,
+                                    letterSpacing: 1,
                                   ),
                                 ),
                               ),
@@ -52,9 +52,9 @@ class coursestructure extends StatelessWidget {
                                   'COURSE STRUCTURE',
                                   style: TextStyle(
                                     color: Colors.black,
-                                    fontSize: 28,
+                                    fontSize: 30,
                                     fontWeight: FontWeight.w900,
-                                    letterSpacing: 1.5,
+                                    letterSpacing: 1,
                                   ),
                                 ),
                               ),
