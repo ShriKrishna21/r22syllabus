@@ -31,7 +31,7 @@ class _SplashState extends State<Splash> {
     );
     return Scaffold(
         appBar: AppBar(
-          title: Text('VSYLLABUS',
+          title: Text('VSYLLABUS_R22',
           style: TextStyle(
             fontSize: 25
           ),),
@@ -64,7 +64,7 @@ class _SplashState extends State<Splash> {
               Padding(
                               padding: EdgeInsets.only(top: 5,bottom: 50),
                               child: Text(
-                                'V SYLLABUS R-20',
+                                'V SYLLABUS R-22',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 40,
